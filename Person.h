@@ -13,6 +13,7 @@ class Person {
         double money;
     public:
         Person();
+        Person(std::string type, int account, double money);
 
         const std::string &get_type() const;
 

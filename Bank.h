@@ -20,8 +20,15 @@ private:
     int percent;
 public:
     Bank();
-    void add_person();
-    void delete_person();
+    Bank(int bank_id, double all_money, double percent);
+
+    void add_person(const Person& person);
+
+    /**
+     * Удалить клиента пользователя с определенным номером счета
+     * @param acc_number Номер счета клиента
+     */
+    void delete_person(const int acc_number);
 
     int get_bank_id() const;
 
@@ -35,7 +42,7 @@ public:
 
     void set_persons(const std::vector<Person> &persons);
 
-
+    Person& find_person_by_number(const int account_number);
 };
 
 

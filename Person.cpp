@@ -8,6 +8,8 @@ Person::Person() {
 
 }
 
+Person::Person(std::string type, int account, double money): type(type), account_number(account), money(money){}
+
 const std::string &Person::get_type() const {
     return type;
 }

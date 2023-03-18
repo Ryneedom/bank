@@ -27,7 +27,7 @@
 					[
 						0
 					],
-					"name" : "untitled",
+					"name" : "bank",
 					"targetIndexes" : 
 					[
 						0
@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "untitled::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-untitled-Debug-1798ad3485d73b3c2406.json",
-					"name" : "untitled",
+					"id" : "bank::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bank-Debug-4049613990cfc767d02a.json",
+					"name" : "bank",
 					"projectIndex" : 0
 				}
 			]
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/0/CLionProjects/untitled/cmake-build-debug",
-		"source" : "C:/Users/0/CLionProjects/untitled"
+		"build" : "C:/Users/0/CLionProjects/bank/cmake-build-debug",
+		"source" : "C:/Users/0/CLionProjects/bank"
 	},
 	"version" : 
 	{
